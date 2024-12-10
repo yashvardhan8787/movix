@@ -6,7 +6,7 @@ import DetailsBanner from './detailsBanner/DetailsBanner';
 import Cast from './cast/Cast';
 import VideoSection from './videoSection/VideoSection';
 import Similar from './carousels/Similar';
-import Recommendation from './carousels/recommendation';
+import Recommendation from '../details/carousels/Recommendation';
 const Details = () => {
 
 const {mediaType , id}  = useParams();
